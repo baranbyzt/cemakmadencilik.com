@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,body{
+    position: relative;
+    height: 100%;
+    height: 100%;
+}
+
+#burgermenu{
+    display: none;
+}
+.linkburgers{
+    display: flex;
+}
+#burgerburger{
+     display: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+#manganheaer1bakır{
+    background-image: url("../../utilitys/img/topimages/bakır1\ \(1\).jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+#manganheaer1demir{
+    background-image: url("../../utilitys/img/genelresimler/bbb.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+#headerimage1_vizyonumuz{
+    background-image: url("../../utilitys/img/genelresimler/ss6.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+#manganheaer1 {
+    background-image: url("../../utilitys/img/genelresimler/ss6.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */ 
+}
+#headerimage1_kadirbey{
+    background-image: url("../../utilitys/img/genelresimler/ss6.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+#manganheaer1dgolden {
+    background-image: url("../../utilitys/img/topimages/gold1.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+#headerimage1{
+    background-image: url("../../utilitys/img/genelresimler/ddd.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+#manganheaer1{
+    background-image: url("../../utilitys/img/genelresimler/w2.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#süpereminem{
+display: none;
+}
+#süpereminemesdf{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 752px) {
+ 
+    .linkburgers{
+        display: none;
+    }
+    #burgerburger{
+        display: flex;
+    }
+  }
+  
